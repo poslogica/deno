@@ -1,0 +1,8 @@
+# Build context for sonicsort/Dockerfile (repo root): only what cargo needs.
+.git
+target
+**/node_modules
+tests/wpt/suite
+tests/node_compat/runner/suite
+tests/util/std
+tests/bench/testdata/lsp_benchdata
